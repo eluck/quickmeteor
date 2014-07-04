@@ -1,6 +1,7 @@
 # Quickmeteor
 
-Quickmeteor is a tool for better handling of Meteor projects placed in a RAM drive. Read about it at [solidmeteor.com](http://www.solidmeteor.com/fasten-your-seatbelt-were-going-to-speed-up-a-meteor-gear-1-the-linux-speedway/).
+Quickmeteor is a tool for better handling of Meteor projects placed in a RAM drive. Read about it at 
+[solidmeteor.com](http://www.solidmeteor.com/fasten-your-seatbelt-were-going-to-speed-up-a-meteor-gear-1-the-linux-speedway/).
 
 
 Quickmeteor provides the command `quickmeteor`, which can be used to reset Meteor projects configured in the following way:
@@ -37,4 +38,5 @@ $ sudo -H npm install -g quickmeteor
 
 ### `quickmeteor reset`
 
-Works like `meteor reset`, but if the Meteor project has a symlink at `.meteor/local/db`, it deletes all the db files in the target directory and restores the symlink after `meteor reset.
+Works like `meteor reset`, but if the Meteor project has a symlink at `.meteor/local/db`, it deletes all the db files 
+in the target directory and restores the symlink after `meteor reset`.
