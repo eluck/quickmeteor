@@ -1,0 +1,27 @@
+{
+  "name": "quickmeteor",
+  "version": "0.0.1",
+  "homepage": "http://solidmeteor.com",
+  "engines": [
+    "node >=0.8.0"
+  ],
+  "description": "RAM drive support for Meteor",
+  "author": {
+    "name": "eluck",
+    "email": "mail@eluck.me",
+    "url": "http://solidmeteor.com"
+  },
+  "dependencies": {
+    "underscore": "1.6",
+    "shelljs": ">=0.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bin": {
+    "quickmeteor": "./bin/quickmeteor"
+  },
+  "readme": "# Quickmeteor\n\nQuickmeteor is a tool for better handling of Meteor projects placed in a RAM drive. Read about it at [solidmeteor.com](http://www.solidmeteor.com/fasten-your-seatbelt-were-going-to-speed-up-a-meteor-gear-1-the-linux-speedway/).\n\n\nQuickmeteor provides the command `quickmeteor`, which can be used to reset Meteor projects configured in the following way:\n\n1. A project resides in a RAM drive\n2. Its mongo database resides outside of the RAM drive and is symlinked by `.meteor/local/db`\n\n``` sh\n# To reset the project use this command instead of 'meteor reset'\n$ quickmeteor reset\n```\n\n## Installing Quickmeteor\n\nQuickmeteor can be installed via [npm](https://npmjs.org/).\n\n``` sh\n$ npm install -g quickmeteor\n```\n\n### NOTE:\nIf your system requires root access to install global npm packages, make sure you use the `-H` flag:\n\n``` sh\n$ sudo -H npm install -g quickmeteor\n```\n\n### Supported systems\n\n- This software uses a Linux-specific command: `readlink`, so that it shouldn't work properly under a different OS.\n\n\n## Usage\n\n### `quickmeteor reset`\n\nWorks like `meteor reset`, but if the Meteor project has a symlink at `.meteor/local/db`, it deletes all the db files in the target directory and restores the symlink after `meteor reset.",
+  "readmeFilename": "README.md"
+}
