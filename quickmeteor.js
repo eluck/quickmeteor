@@ -36,7 +36,7 @@
       });
     },
     usage: function() {
-      return console.log("Usage: quickmeteor reset Works like `meteor reset`, but if the Meteor project has a symlink at `.meteor/local/db`, it deletes all the db files in the target directory and restores the symlink after `meteor reset.");
+      return console.log("Usage: quickmeteor reset\n\n" + "Works like `meteor reset`, but if the Meteor project\n" + "has a symlink at `.meteor/local/db`, it deletes\n" + "all the db files in the target directory and restores\n" + "the symlink after `meteor reset`.\n");
     },
     waitUntilDefined: function(args, callback) {
       var originalArgs;
