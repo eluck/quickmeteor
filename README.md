@@ -1,7 +1,9 @@
 # Quickmeteor
 
-Quickmeteor is a tool for better handling of Meteor projects placed in a RAM drive. Read about it at 
-[solidmeteor.com](http://www.solidmeteor.com/fasten-your-seatbelt-were-going-to-speed-up-a-meteor-gear-1-the-linux-speedway/).
+Quickmeteor is a tool for better handling of Meteor projects placed in a RAM drive. Read about it: 
+
+- [Speeding up Meteor compliations. Gear 1. The Linux [speed]way.](http://www.solidmeteor.com/fasten-your-seatbelt-were-going-to-speed-up-a-meteor-gear-1-the-linux-speedway/)
+- [Speeding up Meteor compliations. Extension 1. Dealing with big mongo DBs.](http://www.solidmeteor.com/fasten-your-seatbelt-were-going-to-speed-up-a-meteor-extension-1-dealing-with-big-mongo-dbs/)
 
 
 Quickmeteor provides the command `quickmeteor`, which can be used to reset Meteor projects configured in the following way:
